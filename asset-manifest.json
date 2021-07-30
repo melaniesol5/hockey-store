@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hockey-store/static/css/main.121936cc.chunk.css",
+    "main.js": "/hockey-store/static/js/main.cfcf665c.chunk.js",
+    "main.js.map": "/hockey-store/static/js/main.cfcf665c.chunk.js.map",
+    "runtime-main.js": "/hockey-store/static/js/runtime-main.aeff3068.js",
+    "runtime-main.js.map": "/hockey-store/static/js/runtime-main.aeff3068.js.map",
+    "static/js/2.462d4db5.chunk.js": "/hockey-store/static/js/2.462d4db5.chunk.js",
+    "static/js/2.462d4db5.chunk.js.map": "/hockey-store/static/js/2.462d4db5.chunk.js.map",
+    "static/js/3.2aee90db.chunk.js": "/hockey-store/static/js/3.2aee90db.chunk.js",
+    "static/js/3.2aee90db.chunk.js.map": "/hockey-store/static/js/3.2aee90db.chunk.js.map",
+    "index.html": "/hockey-store/index.html",
+    "static/css/main.121936cc.chunk.css.map": "/hockey-store/static/css/main.121936cc.chunk.css.map",
+    "static/js/2.462d4db5.chunk.js.LICENSE.txt": "/hockey-store/static/js/2.462d4db5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aeff3068.js",
+    "static/js/2.462d4db5.chunk.js",
+    "static/css/main.121936cc.chunk.css",
+    "static/js/main.cfcf665c.chunk.js"
+  ]
+}
