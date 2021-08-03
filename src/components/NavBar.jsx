@@ -1,6 +1,7 @@
 import '../css/Navbar.css';
 import {Navbar, Container, Col, Row, Nav, NavDropdown} from "react-bootstrap";
-function NavBar(){
+import CartWidget from "./CartWidget";
+export default function NavBar(){
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container><Navbar.Brand href="#home"><span className="brand">The Hockey Store</span></Navbar.Brand>
@@ -51,10 +52,9 @@ function NavBar(){
                 </Nav>
                 <Nav><Nav.Link href="#sale">SALE <i className="fas fa-fire-alt"></i></Nav.Link></Nav>
             </Navbar.Collapse>
+            <CartWidget/>
             </Container>
             </Navbar>
         
     )
 }
-
-export default NavBar;
