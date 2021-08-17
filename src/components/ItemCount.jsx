@@ -7,9 +7,7 @@ export default function ItemCount({stock, initial,onAdd}) {
 
   return (
     <>
-    <Card style={{ width: '18rem' }}>
-  <Card.Body>
-    <Card.Title>Remera</Card.Title>
+    
     <Row>
         <Col>
             <Card.Link href="#">
@@ -40,9 +38,6 @@ export default function ItemCount({stock, initial,onAdd}) {
     </Col>
     
     </Row>
-  </Card.Body>
-</Card>
-      
      
     </>
   );
