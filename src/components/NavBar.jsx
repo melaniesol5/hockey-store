@@ -1,10 +1,18 @@
 import '../css/Navbar.css';
 import {Navbar, Container, Col, Row, Nav, NavDropdown} from "react-bootstrap";
 import CartWidget from "./CartWidget";
+import logo from '../logo.jpg';
 export default function NavBar(){
     return (
+        <>
+        <Navbar.Brand href="#home">
+        <div style={{ width:"250px", display:"inline-block", textAlign:"center" }}>
+          <img src={logo} alt="logo" width="374px" />
+        </div>
+        </Navbar.Brand>
+        
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container><Navbar.Brand href="#home"><span className="brand">The Hockey Store</span></Navbar.Brand>
+            <Container>
             
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -55,6 +63,6 @@ export default function NavBar(){
             <CartWidget/>
             </Container>
             </Navbar>
-        
+     </>   
     )
 }
