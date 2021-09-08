@@ -1,9 +1,15 @@
 .item{
     display: inline-block;
     margin: 15px;
+    color: black;
 }
 
 img{
     width: 80%;
     height: 200px;
+}
+
+.imgItem{
+    width: 80%;
+    height: 300px;
 }
