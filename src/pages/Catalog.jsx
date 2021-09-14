@@ -1,10 +1,10 @@
 import ItemListContainer from '../components/ItemListContainer';
 import {useParams} from "react-router-dom";
 export default function Catalog(){
-    const {id} = useParams();
+    const {categoryId} = useParams();
     return(
         <>
-        <ItemListContainer category={id}/>
+        <ItemListContainer categoryId={categoryId}/>
         </>
     )
 }

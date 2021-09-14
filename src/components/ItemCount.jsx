@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ButtonCount from './Button';
-import {Card, ListGroup, Row, Col, Button} from "react-bootstrap";
+import {Card, Row, Col, Button} from "react-bootstrap";
 
 export default function ItemCount({stock, initial,onAdd}) {
     const [count, setCount] = useState(initial);

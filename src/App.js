@@ -24,7 +24,7 @@ function App() {
       </header>
       <Switch>
         <Route exact path="/"> <Home /> </Route>
-        {categories.map(category => <Route key={category.id} exact path="/category/:id"> <Catalog  key={category.id}/> </Route> )}
+        {categories.map(category => <Route key={category.id} exact path="/category/:categoryId"> <Catalog  key={category.id}/> </Route> )}
         <Route exact path="/salespoints/"> <Salespoints/> </Route>
         <Route exact path="/item/:id"> <Detail/> </Route>
       </Switch>
